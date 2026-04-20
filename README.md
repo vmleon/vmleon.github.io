@@ -1,6 +1,6 @@
 # vmleon.github.io
 
-Victor Martín Álvarez's professional website — an interactive 3D world (React + Three.js) to explore my profile, with my CV at [/cv/](https://vmleon.github.io/cv/).
+Víctor Martín Álvarez's professional website — an interactive 3D world (React + Three.js) to explore my profile, with my CV at [/cv/](https://vmleon.github.io/cv/).
 
 Live at **[vmleon.github.io](https://vmleon.github.io)**.
 

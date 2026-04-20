@@ -5,28 +5,163 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Víctor Martín Álvarez — CV</title>
-    <meta name="description" content="Senior Principal PM, Oracle AI Database. 15+ years in enterprise software.">
+    <meta name="description" content="Senior Principal Product Manager, Oracle AI Database. 15+ years in enterprise software, AI/ML, and cloud.">
     <style>
-      body { font-family: system-ui, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #1f2937; }
+      body { font-family: system-ui, sans-serif; max-width: 820px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #1f2937; }
       h1 { margin-bottom: 0.25rem; }
       h2 { border-bottom: 1px solid #e5e7eb; padding-bottom: 0.25rem; margin-top: 2rem; }
-      .role { display: flex; justify-content: space-between; align-items: baseline; margin-top: 1rem; flex-wrap: wrap; }
-      .role h3 { margin: 0; }
-      .role span { color: #6b7280; font-size: 0.9rem; }
+      h3 { margin: 0; }
+      p { margin: 0.25rem 0; }
+      ul { margin: 0.5rem 0 1rem; padding-left: 1.25rem; }
+      li { margin-bottom: 0.35rem; }
+      .contact { color: #4b5563; font-size: 0.95rem; }
+      .contact a { color: #2563eb; text-decoration: none; }
+      .role { display: flex; justify-content: space-between; align-items: baseline; margin-top: 1rem; flex-wrap: wrap; gap: 0.5rem; }
+      .role .meta { color: #6b7280; font-size: 0.9rem; }
+      .skills dt { font-weight: 600; color: #111827; margin-top: 0.5rem; }
+      .skills dd { margin: 0 0 0.25rem; color: #374151; }
       a.back { display: inline-block; margin-bottom: 1rem; color: #2563eb; text-decoration: none; }
+      @media print {
+        a.back { display: none; }
+        body { margin: 0; }
+      }
     </style>
   </head>
   <body>
     <a class="back" href="/">← Back to 3D world</a>
 
     <h1>Víctor Martín Álvarez</h1>
-    <p>Senior Principal Product Manager — Oracle AI Database · Spain</p>
+    <p class="contact">
+      <a href="https://www.linkedin.com/in/victormartindeveloper/" target="_blank" rel="noreferrer">linkedin.com/in/victormartindeveloper</a>
+    </p>
 
-    <h2>Experience</h2>
+    <h2>Professional Summary</h2>
+    <p>Senior Principal Product Manager and Full Stack Developer with 15+ years of experience in enterprise software. Specialized in AI/ML solutions, vector search architectures, and data management platforms. Proven track record delivering production-ready AI systems including RAG architectures, semantic search, and NL2SQL solutions. Strong background in database technologies, cloud infrastructure, and customer-facing technical leadership across EMEA markets.</p>
+
+    <h2>Technical Skills</h2>
+    <dl class="skills">
+      <dt>AI/ML</dt><dd>Vector Search · RAG Architectures · NL2SQL · Deep Learning</dd>
+      <dt>Databases</dt><dd>PostgreSQL · MySQL · Cassandra · Elasticsearch · NoSQL · SQL</dd>
+      <dt>Cloud</dt><dd>Kubernetes · Docker · AWS · Azure · GCP · Terraform · Ansible</dd>
+      <dt>Languages</dt><dd>Python · Java · Node.js · JavaScript · TypeScript · SQL</dd>
+      <dt>Architecture</dt><dd>Microservices · Event-Driven · Message Queues · REST APIs</dd>
+      <dt>DevOps</dt><dd>CI/CD · Jenkins · Git · Infrastructure as Code</dd>
+    </dl>
+
+    <h2>Professional Experience</h2>
+
     <div class="role">
-      <h3>Senior Principal Product Manager, Oracle AI Database</h3>
-      <span>Apr 2024 — Present</span>
+      <h3>Senior Principal Product Manager</h3>
+      <span class="meta">Oracle AI Database · Spain · Apr 2024 — Present</span>
     </div>
-    <p>Paste rest of CV here — one block per role. This file is plain HTML, edit directly.</p>
+    <ul>
+      <li>Lead AI Task Force strategic initiatives, delivering production-ready solutions including Agentic RAG with Oracle AI Vector Search, Select AI validation in Exadata Cloud environments, and scalable vector search ingestion architectures leveraging Oracle Database Advanced Queues.</li>
+      <li>Drive EMEA customer engagements with AI-focused demonstrations at major conferences (Spring I/O Europe 25, KubeCon Europe 2025, Oracle Database Code Summit EMEA), connecting with 41+ enterprise customers across 12 countries.</li>
+      <li>Develop multicloud database automation initiatives with comprehensive Infrastructure as Code playbooks for Oracle Database@Azure across Kubernetes orchestration, data management, AI, and CI/CD pipeline automation.</li>
+      <li>Design solutions for Kubernetes integration with Oracle Database Operator and MicroTX for distributed transactions, full-stack disaster recovery orchestration, and multicloud deployment patterns.</li>
+    </ul>
+
+    <div class="role">
+      <h3>EMEA Technology Product Strategy Director</h3>
+      <span class="meta">Oracle Cloud · Ireland · Mar 2022 — Mar 2024</span>
+    </div>
+    <ul>
+      <li>Created and delivered professional technical content on Oracle Live Labs, including high-profile partnerships with RedBull Racing and SailGP, recognized and used globally by marketing teams.</li>
+      <li>Presented technical content at Oracle Cloud World (2022 and 2023 editions).</li>
+      <li>Speaker at KubeCon Europe 2022 Oracle Office Hours, covering Observability with OCI Logging Analytics and Kubernetes.</li>
+      <li>Led Sales Enablement campaigns connecting technical audiences with sales organizations across EMEA.</li>
+    </ul>
+
+    <div class="role">
+      <h3>EMEA Technology Product Strategy Manager</h3>
+      <span class="meta">Oracle Cloud · Ireland · Jun 2021 — Mar 2022</span>
+    </div>
+    <ul>
+      <li>Developed Oracle Cloud workshops including MySQL HeatWave for data warehouse analytics, Data Science integrations, and database service deployments.</li>
+      <li>Collaborated with Oracle Developer Relations on high-profile technical content and partnerships.</li>
+      <li>Member of Edward Screven's UX Review Task Force: collected insights and improvements on OCI, conducted competitive analysis against AWS, Azure, and GCP, presented findings directly to Edward Screven and Clay Magouyrk.</li>
+    </ul>
+
+    <div class="role">
+      <h3>EMEA Principal Cloud Engineer</h3>
+      <span class="meta">Oracle Cloud · Ireland · Jan 2019 — Jun 2021</span>
+    </div>
+    <ul>
+      <li>Created official Oracle Cloud workshops including Oracle APEX and Digital Assistant, plus technical articles and open-source repositories.</li>
+      <li>Conducted quarterly competitive analysis of the cloud market with presentations to Oracle Engineering Vice-Presidents.</li>
+      <li>Helped enterprise adopters deploy distributed applications on OCI following cloud-native best practices at EMEA level.</li>
+    </ul>
+
+    <div class="role">
+      <h3>Full-Stack Software Engineer</h3>
+      <span class="meta">42Crunch · Ireland · Oct 2017 — Jan 2019</span>
+    </div>
+    <ul>
+      <li>API security in the enterprise: complete ecosystem around web application firewalls to protect APIs — transport, availability, confidentiality, validation, integrity, authentication, and authorization.</li>
+      <li>Stack: Docker, Kubernetes, Google Cloud, REST APIs, Node.js, React-Redux, Elasticsearch, PostgreSQL, Git, CI/CD with Jenkins.</li>
+    </ul>
+
+    <div class="role">
+      <h3>Full-Stack Software Engineer</h3>
+      <span class="meta">Axway · Ireland · Oct 2016 — Sep 2017</span>
+    </div>
+    <ul>
+      <li>API Gateway product development: rewrote website with React stack and decomposed monolithic application into microservices architecture using Dropwizard and Node.js.</li>
+      <li>Stack: React, Redux, Redux-saga, Webpack, Node.js, Java, Cassandra, REST APIs, Git, CI/CD with Jenkins, Docker.</li>
+    </ul>
+
+    <div class="role">
+      <h3>Senior Software Engineer</h3>
+      <span class="meta">FEXCO · Ireland · Oct 2013 — Sep 2016</span>
+    </div>
+    <ul>
+      <li>Responsible for currency exchange system deployed across Europe and South Pacific: introduced new product lines, microservices architecture, and Docker containerization.</li>
+      <li>Stack: Angular, Ext JS, Spring Framework, Hibernate, Spring Boot, NoSQL/SQL databases, REST APIs, Node.js, D3.js, Jenkins, Docker.</li>
+    </ul>
+
+    <div class="role">
+      <h3>Senior Software Engineer</h3>
+      <span class="meta">Indra · Spain · Sep 2010 — Sep 2013</span>
+    </div>
+    <ul>
+      <li>Air Traffic Management system (SACTA) for Spanish airspace: upgraded Flight Plan subsystem, added country support, and implemented Eurocontrol improvements.</li>
+      <li>Technologies: ADA, Java, C++, C, IDL.</li>
+    </ul>
+
+    <div class="role">
+      <h3>Senior Software Engineer</h3>
+      <span class="meta">Hewlett Packard CDS · Spain · Apr 2010 — Sep 2010</span>
+    </div>
+    <ul>
+      <li>Pharmaceutical product development with new catalog and prescription delivery features.</li>
+      <li>Stack: JPA (Hibernate), Spring Framework, Oracle, OpenXava, Liferay, JSP, PL/SQL.</li>
+    </ul>
+
+    <div class="role">
+      <h3>Junior Software Developer</h3>
+      <span class="meta">Instituto Tecnológico de León (Mnemo) · Spain · Jul 2008 — Apr 2010</span>
+    </div>
+    <ul>
+      <li>R&amp;D department: J2EE, EJB3, JPA, Spring Framework, Seam, JSF, GWT, Vaadin, JBoss, MySQL.</li>
+      <li>.NET technologies: ASP.NET for business intelligence applications.</li>
+    </ul>
+
+    <h2>Education &amp; Certifications</h2>
+    <ul>
+      <li>Computer Science Degree — Universidad Internacional de La Rioja (UNIR) — Expected completion: 2025–2026</li>
+      <li>Computer Engineering — University of León (Spain) — Coursework Completed</li>
+      <li>CKA: Certified Kubernetes Administrator — The Linux Foundation</li>
+      <li>CKAD: Certified Kubernetes Application Developer — The Linux Foundation</li>
+      <li>Microsoft Azure Data Fundamentals (DP-900)</li>
+      <li>Professional Diploma in Ethical Hacking — University College Dublin (UCD) Professional Academy</li>
+      <li>Cloud Infrastructure Certified Architect Professional</li>
+      <li>Neural Networks and Deep Learning — Coursera</li>
+    </ul>
+
+    <h2>Languages</h2>
+    <p>Spanish (Native) · English (C1, Cambridge First Certificate)</p>
+
+    <h2>Interests</h2>
+    <p>Scuba Diving · Space Engineering · Photography · Reading · Psychology</p>
   </body>
 </html>

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Personal/professional website: a 3D interactive world (React + Three.js via `@react-three/fiber` + `@react-three/drei`) showcasing Victor's profile, plus a static CV at `/cv/`. Deploys to GitHub Pages (`vmleon.github.io`).
+Personal/professional website: a 3D interactive world (React + Three.js via `@react-three/fiber` + `@react-three/drei`) showcasing Víctor's profile, plus a static CV at `/cv/`. Deploys to GitHub Pages (`vmleon.github.io`).
 
 ## Commands
 
