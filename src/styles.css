@@ -14,6 +14,13 @@ body {
   border-radius: 0.5rem; backdrop-filter: blur(8px);
 }
 
+.controls {
+  position: fixed; bottom: 1rem; left: 1rem; z-index: 10;
+  color: #e5e7eb; background: rgba(0,0,0,0.4);
+  padding: 0.5rem 0.75rem; border-radius: 0.5rem;
+  font-size: 0.875rem; letter-spacing: 0.02em;
+}
+
 .overlay-backdrop {
   position: fixed; inset: 0; background: rgba(0,0,0,0.6);
   display: grid; place-items: center; z-index: 100;

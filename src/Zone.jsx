@@ -1,21 +1,30 @@
-import { useState } from 'react';
+import { useBox } from '@react-three/cannon';
 import { Text } from '@react-three/drei';
 
-export default function Zone({ position, label, onOpen }) {
-  const [hovered, setHovered] = useState(false);
+const SIZE = [3, 2, 3];
+
+export default function Zone({ position, label, color, onEnter }) {
+  const [ref] = useBox(() => ({
+    type: 'Static',
+    args: SIZE,
+    position,
+    collisionResponse: false,
+    onCollideBegin: onEnter,
+  }));
 
   return (
-    <group position={position}>
-      <mesh
-        castShadow
-        onClick={onOpen}
-        onPointerOver={(e) => { e.stopPropagation(); setHovered(true); document.body.style.cursor = 'pointer'; }}
-        onPointerOut={() => { setHovered(false); document.body.style.cursor = 'auto'; }}
-      >
-        <boxGeometry args={[3, 2, 3]} />
-        <meshStandardMaterial color={hovered ? '#f97316' : '#3b82f6'} />
+    <>
+      <mesh ref={ref}>
+        <boxGeometry args={SIZE} />
+        <meshStandardMaterial color={color} transparent opacity={0.4} />
       </mesh>
-      <Text position={[0, 2, 0]} fontSize={0.5} anchorX="center">{label}</Text>
-    </group>
+      <Text
+        position={[position[0], position[1] + 2, position[2]]}
+        fontSize={0.5}
+        anchorX="center"
+      >
+        {label}
+      </Text>
+    </>
   );
 }
